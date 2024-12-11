@@ -1,0 +1,263 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #357ca5; /* Blue theme */
+  color: white;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 15px 0;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu li:hover {
+  background-color: #285a77;
+  color: #e6e6e6;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styles */
+.header {
+  background-color: #357ca5;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  min-width: 200px; /* Responsive design */
+}
+
+.stat-card .icon {
+  font-size: 2em;
+  color: #357ca5;
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.stat-card p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f1f1f1;
+  color: #555;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/* General Page Layout */
+.content-wrapper {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Card Component */
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.create-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Table Controls */
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.entries-select,
+.search-input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  background: #fff;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background: #f1f1f1;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Action Button */
+.action-btn {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Pagination */
+.table-pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.pagination-controls .page-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.pagination-controls .page-btn.active {
+  background: #0056b3;
+}
+
+.pagination-controls .page-btn:hover {
+  background: #0056b3;
+}
